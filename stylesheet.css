@@ -1,0 +1,520 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*home*/
+
+header{
+  width:100%;
+  height:300px;
+  text-align: center;
+}
+
+.inner{
+  width:1200px;
+  margin: 0 auto;
+}
+.header_contents{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+
+.header_visual_contents h1{
+  padding-top: 70px;
+}
+.header_visual_contents h1 a img{
+  height: 150px;
+}
+
+.header_visual_contents h2{
+  line-height: 300px;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: 'Playfair Display', serif;
+}
+
+.header-right{
+  padding-top: 120px;
+
+}
+.btn-login{
+  display: block;
+  padding-bottom: 10px;
+  color:black
+}
+
+.btn-login img{
+  height:20px;
+  padding-top: 5px;
+}
+
+.btn-login:hover{
+  color:#a9a9a9;
+}
+
+.btn-registration{
+  display: block;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.btn-registration:hover{
+  color:#a9a9a9;
+}
+
+.btn-search {
+  background-image: url(image/navi_line_bg.gif);
+  padding:5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px;
+  color:black;
+}
+
+.btn-search:hover{
+  color:#a9a9a9;
+}
+
+input[type="text-item"]{
+  max-width: 140px;
+  width:100%;
+}
+
+nav{
+  text-align: center;
+  border-top: 1px solid #a9a9a9;
+  border-bottom:1px solid #a9a9a9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding-left: 85px;
+  padding-right: 85px;
+  border-left: 1px solid #696969;
+  border-right: 1px solid #696969;
+}
+
+nav ul li + li {
+  border-left: 0;
+  border-right: 1px solid #696969;
+}
+
+nav ul li a{
+  color:black;
+  font-family: 'Playfair Display', serif;
+
+}
+
+nav ul li a:hover{
+  color:#a9a9a9;
+}
+
+.item-contents{
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  gap:10px;
+  margin-top:50px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.item_visual_contents :hover{
+  color:#a9a9a9;
+}
+.item_visual_contents a img{
+  height:300px;
+}
+
+.longt-text{
+  color:black;
+}
+
+.sold-text{
+  color:black;
+}
+
+.soldout-text{
+  color:black;
+}
+
+footer{
+  height:100px;
+  background-color: #EDEDED;
+}
+
+.footer-text {
+  text-align: center;
+  line-height: 100px;
+}
+
+/*item*/
+.inner h3{
+  font-weight: normal;
+  border:1px solid #a9a9a9;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: 'Playfair Display', seri
+}
+
+/*about*/
+.about-contents{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.about_visual_contents{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about_visual_contents h3{
+  font-weight: normal;
+  border:1px solid #a9a9a9;
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: 'Playfair Display', seri
+}
+
+.about_visual_contents img{
+  height:200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about_visual_contents p{
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 40px;
+}
+
+/*contact*/
+
+.contact-contents{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.contact_visual_contents {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contact_visual_contents h3{
+  font-weight: normal;
+  border:1px solid #a9a9a9;
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: 'Playfair Display', seri
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  border:1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+
+input[type="text"],
+input[type="email"]{
+  max-width: 240px;
+  width: 100%;
+}
+
+textarea{
+  max-width: 480px;
+  width: 100%;
+  height:100px;
+}
+
+input[type="submit"]{
+  width: 100%;
+  max-width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*item1*/
+.item1_visual_contents {
+  display: flex;
+}
+
+.item1_visual_contents h4 img{
+  height:500px;
+  padding-top: 20px;
+}
+.item1-right{
+  padding-left: 20px;
+}
+.item1-right h5{
+  padding-top: 30px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.item-text{
+  padding-top: 30px;
+}
+
+.item-size{
+  padding-top: 30px;
+}
+
+.price-contents{
+  margin-bottom: 30px;
+}
+.price-contents h5{
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.price-text{
+  padding-top: 20px;
+}
+
+.price-free{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:#0000FF;
+}
+
+.payment{
+  background-color: red;
+  color: white;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.payment:hover{
+  background-color:rgba(255, 0, 0, 0.5);
+}
+
+/*item3~5半袖画像*/
+.item3-left img{
+  width: 550px;;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*モバイル版*/
