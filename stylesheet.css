@@ -210,13 +210,13 @@ input, select {
 /*home*/
 
 header{
-  width:100%;
   height:300px;
   text-align: center;
 }
 
 .inner{
-  width:1200px;
+  max-width:1200px;
+  width:100%;
   margin: 0 auto;
 }
 .header_contents{
@@ -246,11 +246,6 @@ header{
   display: block;
   padding-bottom: 10px;
   color:black
-}
-
-.btn-login img{
-  height:20px;
-  padding-top: 5px;
 }
 
 .btn-login:hover{
@@ -520,13 +515,51 @@ a{
 /*スマホ版*/
 @media (max-width: 768px) {
   header{
-    width:768px;
+    max-width: 768px;
+    width: 100%;
+    height:150px;
+  }
+
+  .inner{
+    width:100%;
+    margin:0 auto;
+  }
+
+  .header_contents{
+    display: grid;
+    grid-template-columns: 256px 256px 256px;
+  }
+
+  .header_visual_contents h1{
+    padding-top: 35px;
+  }
+  .header_visual_contents h1 a img{
+    height:75px;
+  }
+
+  .header_visual_contents h2{
+    font-size: 20px;
+    line-height: 150px;
+  }
+
+  .header-right{
+    padding-top: 60px;
+  }
+
+  .btn-login{
+    font-size: 15px;
+  }
+
+  .btn-registration{
+    font-size: 15px;
+  }
+
+  .btn-search{
+    font-size: 10px;
   }
 
   .item-contents{
     display: grid;
-    grid-template-columns: 389px 389px;
-    text-align: center;
+    grid-template-columns: 389px 389px 389px;
   }
-
 }
